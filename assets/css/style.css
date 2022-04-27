@@ -1,0 +1,94 @@
+body {
+    background:url("../img/bg.jpg") center;
+    font-family: Narrow;
+}
+form {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+    flex-direction: column;
+}
+p {
+    margin: 0;
+}
+input, select {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #aaa;
+    font-size: 16px;
+    padding: 5px;
+    transition:300ms;
+}
+input[type="submit"] {
+    background-color: #fff;
+    cursor:pointer;
+}
+input[type="submit"]:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+.item p {
+    color: #fff;
+    text-shadow: 0px 1px 2px #000;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: arial;
+}
+.container {
+    width: 700px;
+    height: fit-content;
+    justify-content: center;
+    margin: auto;
+}
+#draw1, #draw2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 10px;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
+svg rect {
+    width: auto;
+    height: auto;
+}
+
+.varga_table {
+    display:none;
+}
+.show {
+    display:block;
+}
+table.table-striped {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 10px;
+    border-spacing: unset;
+}
+table.table-striped thead {
+    background-color: #dee7ee;
+}
+table.table-striped th, td {
+    padding: 5px 0;
+    font-family: Narrow;
+}
+.draw {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+}
+#change_vdata {
+    margin-bottom:5px;
+}
+svg text {
+    font-size: 7px;
+}
