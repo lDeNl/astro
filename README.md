@@ -10,7 +10,7 @@ They have two license options - one, the GPL, which only means that any code you
 
 ## License
 The files in this library are released under the GNU General Public License version 2 or later.
-[Source code](https://github.com/kunjara/jyotish ).
+ [Source code](https://github.com/kunjara/jyotish ).
 
 # Jyotish Draw (Front-end)
 Drawing component for Jyotish Library.
