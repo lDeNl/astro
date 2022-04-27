@@ -1,0 +1,164 @@
+{
+    "packages": [
+        {
+            "name": "kunjara/jyotish",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kunjara/jyotish.git",
+                "reference": "c230abff8f41bd347fb1f2c8b3211e1460b29f2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kunjara/jyotish/zipball/c230abff8f41bd347fb1f2c8b3211e1460b29f2c",
+                "reference": "c230abff8f41bd347fb1f2c8b3211e1460b29f2c",
+                "shasum": ""
+            },
+            "require": {
+                "kunjara/swetest": "1.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "5.7.9"
+            },
+            "time": "2017-09-08T07:22:45+00:00",
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jyotish\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kunjara Lila das",
+                    "email": "vladya108@gmail.com",
+                    "homepage": "http://web-art.su"
+                }
+            ],
+            "description": "PHP library for calculations in Vedic astrology",
+            "keywords": [
+                "ganita",
+                "jataka",
+                "jyotish",
+                "muhurta",
+                "panchanga",
+                "vedic astrology"
+            ],
+            "support": {
+                "issues": "https://github.com/kunjara/jyotish/issues",
+                "source": "https://github.com/kunjara/jyotish/tree/master"
+            },
+            "install-path": "../kunjara/jyotish"
+        },
+        {
+            "name": "kunjara/jyotish-draw",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kunjara/jyotish-draw.git",
+                "reference": "308654189264dc7c74bba675e2180adea7007e76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kunjara/jyotish-draw/zipball/308654189264dc7c74bba675e2180adea7007e76",
+                "reference": "308654189264dc7c74bba675e2180adea7007e76",
+                "shasum": ""
+            },
+            "require": {
+                "kunjara/jyotish": "1.0.*@dev",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.2.*"
+            },
+            "time": "2017-07-25T19:55:08+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jyotish\\Draw\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kunjara Lila das",
+                    "email": "vladya108@gmail.com",
+                    "homepage": "http://web-art.su"
+                }
+            ],
+            "description": "Drawing component for Jyotish Library",
+            "keywords": [
+                "jyotish",
+                "natal chart",
+                "vedic astrology"
+            ],
+            "support": {
+                "issues": "https://github.com/kunjara/jyotish-draw/issues",
+                "source": "https://github.com/kunjara/jyotish-draw/tree/1.1.1"
+            },
+            "install-path": "../kunjara/jyotish-draw"
+        },
+        {
+            "name": "kunjara/swetest",
+            "version": "1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kunjara/swetest.git",
+                "reference": "b7c1e1bd2acd0597926f0e0071724beae1e39587"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kunjara/swetest/zipball/b7c1e1bd2acd0597926f0e0071724beae1e39587",
+                "reference": "b7c1e1bd2acd0597926f0e0071724beae1e39587",
+                "shasum": ""
+            },
+            "time": "2016-01-20T07:06:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Astrodienst",
+                    "email": "order@astro.com",
+                    "homepage": "http://www.astro.com"
+                }
+            ],
+            "description": "Command line program which computes planetary positions",
+            "keywords": [
+                "astrology",
+                "astronomy",
+                "ephemeris",
+                "planets"
+            ],
+            "support": {
+                "issues": "https://github.com/kunjara/swetest/issues",
+                "source": "https://github.com/kunjara/swetest/tree/master"
+            },
+            "install-path": "../kunjara/swetest"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

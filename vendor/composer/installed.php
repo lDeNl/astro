@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'kunjara/jyotish' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../kunjara/jyotish',
+            'aliases' => array(
+                0 => '1.0.x-dev',
+            ),
+            'reference' => 'c230abff8f41bd347fb1f2c8b3211e1460b29f2c',
+            'dev_requirement' => false,
+        ),
+        'kunjara/jyotish-draw' => array(
+            'pretty_version' => '1.1.1',
+            'version' => '1.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../kunjara/jyotish-draw',
+            'aliases' => array(),
+            'reference' => '308654189264dc7c74bba675e2180adea7007e76',
+            'dev_requirement' => false,
+        ),
+        'kunjara/swetest' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../kunjara/swetest',
+            'aliases' => array(),
+            'reference' => 'b7c1e1bd2acd0597926f0e0071724beae1e39587',
+            'dev_requirement' => false,
+        ),
+    ),
+);
