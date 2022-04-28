@@ -1,6 +1,6 @@
 <?php
 /**
- * @link      http://github.com/kunjara/jyotish for the canonical source repository
+ * @link      https://github.com/lDeNl/astro for the canonical source repository
  * @license   GNU General Public License version 2 or later
  */
 
@@ -9,7 +9,7 @@ namespace Jyotish\Ganita\Matrix;
 /**
  * Scaling matrix. 
  *
- * @author Kunjara Lila das <vladya108@gmail.com>
+ * 
  */
 class Scaling extends \Jyotish\Ganita\Matrix\MatrixBase
 {

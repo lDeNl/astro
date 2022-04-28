@@ -1,6 +1,6 @@
 <?php
 /**
- * @link      http://github.com/kunjara/jyotish for the canonical source repository
+ * @link      https://github.com/lDeNl/astro for the canonical source repository
  * @license   GNU General Public License version 2 or later
  */
 
@@ -22,7 +22,7 @@ use DateInterval;
 /**
  * Class for calculating of Panchanga.
  *
- * @author Kunjara Lila das <vladya108@gmail.com>
+ * 
  */
 class AngaDefiner
 {

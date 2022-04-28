@@ -1,6 +1,6 @@
 <?php
 /**
- * @link      http://github.com/kunjara/jyotish for the canonical source repository
+ * @link      https://github.com/lDeNl/astro for the canonical source repository
  * @license   GNU General Public License version 2 or later
  */
 
@@ -12,7 +12,7 @@ use Jyotish\Ganita\Matrix;
 /**
  * Class for generate East chakra.
  *
- * @author Kunjara Lila das <vladya108@gmail.com>
+ * 
  */
 final class East extends AbstractChakra
 {
