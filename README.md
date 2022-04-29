@@ -12,9 +12,8 @@ They have two license options - one, the GPL, which only means that any code you
 The files in this library are released under the GNU General Public License version 2 or later.
  [Source code](https://github.com/kunjara/jyotish ).
 
-# Jyotish Draw (Front-end)
-Drawing component for Jyotish Library.
-![jyotish-draw-north](https://cloud.githubusercontent.com/assets/3120040/22425426/76bdb9f6-e714-11e6-9bae-6596f1923c48.png)
+# Jyotish Draw North(Front-end)
+![jyotish-draw-north](https://i.postimg.cc/jjrP5fX1/astro.png)
 
 # Demo
 https://karmision.ru/astro/ 
