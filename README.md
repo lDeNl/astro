@@ -10,7 +10,11 @@ Astroprocessor on PHP library for calculations in Vedic astrology
 <strong>/public/vendor/devhasta/jyotish-draw</strong> - Рендеринг фронта <br>
  jyotish-draw/src/Plot/Chakra/Renderer.php - Расчеты для отрисовки<br>
  jyotish-draw/src/Renderer/Svg.php - Расчеты для отрисовки всех пармаметров на фронте<br>
-<strong>/public/vendor/devhasta/swetest</strong> - Исполняемый бинарник с помощью которого получаем данные из  Swiss Ephemeris о положении планет в определенное время 
+<strong>/public/vendor/devhasta/swetest</strong> - Исполняемый бинарник с помощью которого получаем данные из  Swiss Ephemeris о положении планет в определенное время: /../swetest/sweph/swetest <br>
+/jyotish/src/Ganita/Method/Sweetest.php - получение данных от бинарника Swiss Ephemeris<br>
+<br>
+Для конечного рендеринга используется jQuery <br>
+<strong>/public/assets/js/app.js<strong>
  
  
 
