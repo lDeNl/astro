@@ -1,9 +1,9 @@
 {
 
     "require": {
-        "ideni/swetest": "@dev",
-        "ideni/jyotish": "@dev",
-        "ideni/jyotish-draw": "@dev"
+        "devhasta/swetest": "@dev",
+        "devhasta/jyotish": "@dev",
+        "devhasta/jyotish-draw": "@dev"
     },
     "repositories": [
         {

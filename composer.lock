@@ -7,11 +7,11 @@
     "content-hash": "9d95c7a2db7ac6987a7031dc53e55a88",
     "packages": [
         {
-            "name": "ideni/jyotish",
+            "name": "devhasta/jyotish",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "vendor/ideni/jyotish",
+                "url": "vendor/devhasta/jyotish",
                 "reference": "07cb19cccd100509e89315865a96178eea36b9bd"
             },
             "type": "library",
@@ -25,11 +25,11 @@
             }
         },
         {
-            "name": "ideni/jyotish-draw",
+            "name": "devhasta/jyotish-draw",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "vendor/ideni/jyotish-draw",
+                "url": "vendor/devhasta/jyotish-draw",
                 "reference": "5457673aecdd98f7ad7736eeb663f2c6dc6cbc5c"
             },
             "type": "library",
@@ -43,11 +43,11 @@
             }
         },
         {
-            "name": "ideni/swetest",
+            "name": "devhasta/swetest",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "vendor/ideni/swetest",
+                "url": "vendor/devhasta/swetest",
                 "reference": "7deb6d287f64893989c6207eb0c353ea8da858a0"
             },
             "type": "library",
@@ -77,9 +77,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ideni/swetest": 20,
-        "ideni/jyotish": 20,
-        "ideni/jyotish-draw": 20
+        "devhasta/swetest": 20,
+        "devhasta/jyotish": 20,
+        "devhasta/jyotish-draw": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
