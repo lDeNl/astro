@@ -14,7 +14,7 @@ Astroprocessor on PHP library for calculations in Vedic astrology
 /jyotish/src/Ganita/Method/Sweetest.php - получение данных от бинарника Swiss Ephemeris<br>
 <br>
 Для конечного рендеринга используется jQuery <br>
-<strong>/public/assets/js/app.js<strong>
+<strong>/public/assets/js/app.js</strong>
  
  
 
