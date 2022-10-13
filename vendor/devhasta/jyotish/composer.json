@@ -1,0 +1,8 @@
+{
+    "name": "devhasta/jyotish",
+    "autoload": {
+        "psr-4": {
+            "Jyotish\\": "src"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "devhasta/jyotish-draw",
+    "autoload": {
+        "psr-4": {
+            "Jyotish\\Draw\\": "src"
+        }
+    }
+}

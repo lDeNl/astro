@@ -1,0 +1,89 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9d95c7a2db7ac6987a7031dc53e55a88",
+    "packages": [
+        {
+            "name": "ideni/jyotish",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "vendor/ideni/jyotish",
+                "reference": "07cb19cccd100509e89315865a96178eea36b9bd"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jyotish\\": "src"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "ideni/jyotish-draw",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "vendor/ideni/jyotish-draw",
+                "reference": "5457673aecdd98f7ad7736eeb663f2c6dc6cbc5c"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jyotish\\Draw\\": "src"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "ideni/swetest",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "vendor/ideni/swetest",
+                "reference": "7deb6d287f64893989c6207eb0c353ea8da858a0"
+            },
+            "type": "library",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Astrodienst",
+                    "email": "order@astro.com",
+                    "homepage": "http://www.astro.com"
+                }
+            ],
+            "description": "Command line program which computes planetary positions",
+            "keywords": [
+                "astrology",
+                "astronomy",
+                "ephemeris",
+                "planets"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ideni/swetest": 20,
+        "ideni/jyotish": 20,
+        "ideni/jyotish-draw": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

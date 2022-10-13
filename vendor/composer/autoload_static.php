@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitaee6447eaf9eee902f649564bf4eee99
+class ComposerStaticInitb55cfad17ca051de2a9db8fef32f0d3f
 {
     public static $prefixLengthsPsr4 = array (
         'J' => 
@@ -17,11 +17,11 @@ class ComposerStaticInitaee6447eaf9eee902f649564bf4eee99
     public static $prefixDirsPsr4 = array (
         'Jyotish\\Draw\\' => 
         array (
-            0 => __DIR__ . '/..' . '/jyotish-draw/src',
+            0 => __DIR__ . '/..' . '/devhasta/jyotish-draw/src',
         ),
         'Jyotish\\' => 
         array (
-            0 => __DIR__ . '/..' . '/jyotish/src',
+            0 => __DIR__ . '/..' . '/devhasta/jyotish/src',
         ),
     );
 
@@ -32,9 +32,9 @@ class ComposerStaticInitaee6447eaf9eee902f649564bf4eee99
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitaee6447eaf9eee902f649564bf4eee99::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitaee6447eaf9eee902f649564bf4eee99::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitaee6447eaf9eee902f649564bf4eee99::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb55cfad17ca051de2a9db8fef32f0d3f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb55cfad17ca051de2a9db8fef32f0d3f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb55cfad17ca051de2a9db8fef32f0d3f::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="83835e95-c154-4f7a-8c8a-5b4421525ac7" name="Astro" url="http://77.222.62.225">
+        <fileTransfer rootFolder="/astro_appest_xyz/public_html/" host="77.222.62.225" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

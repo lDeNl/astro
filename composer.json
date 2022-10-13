@@ -1,0 +1,22 @@
+{
+
+    "require": {
+        "ideni/swetest": "@dev",
+        "ideni/jyotish": "@dev",
+        "ideni/jyotish-draw": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "vendor/devhasta/swetest"
+        },
+        {
+            "type": "path",
+            "url": "vendor/devhasta/jyotish"
+        },
+        {
+            "type": "path",
+            "url": "vendor/devhasta/jyotish-draw"
+        }
+    ]
+}
