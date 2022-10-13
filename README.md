@@ -2,15 +2,18 @@
 Astroprocessor on PHP library for calculations in Vedic astrology 
 
 # Architecture
-/public/vendor/devhasta - основные астро расчеты (PHP)
-/public/vendor/devhasta/jyotish - математические астро расчеты (PHP)
-/public/vendor/devhasta/jyotish-draw - Рендеринг фронта
-/public/vendor/devhasta/swetest - Исполняемый бинарник с помощью которого получаем данные из  Swiss Ephemeris о положении планет в определенное время 
+<strong>/public/vendor/devhasta</strong> - ядро (PHP) <br>
+<br>
+<strong>/public/vendor/devhasta/jyotish</strong> - математические астро расчеты <br>
+ jyotish/src/Base/Data.php - рачет необходимых параметров <br>
+ jyotish/src/Base/Traits/EnvironmentTrait.php<br>
+<strong>/public/vendor/devhasta/jyotish-draw</strong> - Рендеринг фронта <br>
+ jyotish-draw/src/Plot/Chakra/Renderer.php - Расчеты для отрисовки<br>
+ jyotish-draw/src/Renderer/Svg.php - Расчеты для отрисовки всех пармаметров на фронте<br>
+<strong>/public/vendor/devhasta/swetest</strong> - Исполняемый бинарник с помощью которого получаем данные из  Swiss Ephemeris о положении планет в определенное время 
  
- jyotish/src/Base/Data.php - рачет необходимых параметров 
- jyotish/src/Base/Traits
  
- jyotish-draw/src/Plot/Chakra/Renderer.php - Расчеты для отрисовки всех пармаметров на фронте
+
  
 ## System Requirements
  library requires PHP 7.4 or later
