@@ -13,7 +13,7 @@ The files in this library are released under the GNU General Public License vers
  [Source code](https://github.com/kunjara/jyotish ).
 
 # Jyotish Draw North(Front-end)
-![jyotish-draw-north](https://i.postimg.cc/jjrP5fX1/astro.png)
+![jyotish-draw-north](https://postimg.cc/LYNdsTzg)
 
 # Demo
 https://karmision.ru/astroprocessor/ 
