@@ -16,4 +16,4 @@ The files in this library are released under the GNU General Public License vers
 ![jyotish-draw-north](https://i.postimg.cc/jjrP5fX1/astro.png)
 
 # Demo
-https://karmision.ru/astro/ 
+https://karmision.ru/astroprocessor/ 
