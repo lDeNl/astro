@@ -2,11 +2,12 @@
 Astroprocessor on PHP library for calculations in Vedic astrology 
 
 # Architecture
-<strong>/public/vendor/devhasta</strong> - ядро (PHP) <br>
+<strong>/public/vendor/devhasta</strong> - ядро (PHP): <br>
 <br>
 <strong>/public/vendor/devhasta/jyotish</strong> - математические астро расчеты <br>
  jyotish/src/Base/Data.php - рачет необходимых параметров <br>
  jyotish/src/Base/Traits/EnvironmentTrait.php<br>
+ <br>
 <strong>/public/vendor/devhasta/jyotish-draw</strong> - Рендеринг фронта <br>
  jyotish-draw/src/Plot/Chakra/Renderer.php - Расчеты для отрисовки<br>
  jyotish-draw/src/Renderer/Svg.php - Расчеты для отрисовки всех пармаметров на фронте<br>
