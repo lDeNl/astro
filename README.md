@@ -34,6 +34,3 @@ The files in this library are released under the GNU General Public License vers
 
 # Jyotish Draw North(Front-end)
 ![jyotish-draw-north](https://i.postimg.cc/yxz7vpxj/13-10-22-11-49-18.png)
-
-# Demo
-https://karmision.ru/astroprocessor/ 
